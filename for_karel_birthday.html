@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Karel — Happy Birthday!!!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap');
+
+    :root {
+      --ink: #24302d;
+      --muted: #68736f;
+      --paper: #f7f4ed;
+      --line: #d9ddd5;
+      --accent: #9a6b4f;
+      --soft: #e9eee7;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: "DM Sans", Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    .blueprint {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .42;
+      background-image:
+        linear-gradient(var(--line) 1px, transparent 1px),
+        linear-gradient(90deg, var(--line) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, black, transparent 75%);
+    }
+
+    main {
+      position: relative;
+      max-width: 760px;
+      margin: auto;
+      padding: 58px 22px 70px;
+    }
+
+    .eyebrow {
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      font-size: .72rem;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    h1, h2 {
+      font-family: "Playfair Display", Georgia, serif;
+      font-weight: 500;
+      line-height: 1.15;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 10vw, 5.7rem);
+      margin: 18px 0 14px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    .intro {
+      max-width: 580px;
+      font-size: 1.05rem;
+      color: var(--muted);
+    }
+
+    .card {
+      background: rgba(255,255,255,.72);
+      border: 1px solid var(--line);
+      padding: clamp(24px, 5vw, 46px);
+      margin-top: 32px;
+      box-shadow: 0 18px 45px rgba(36,48,45,.06);
+    }
+
+    .card p { margin: 0 0 18px; }
+    .card p:last-child { margin-bottom: 0; }
+
+    .message {
+      font-size: 1.04rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: var(--line);
+      margin: 34px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .little-card {
+      border: 1px solid var(--line);
+      padding: 18px;
+      background: rgba(247,244,237,.7);
+    }
+
+    .little-card strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: .82rem;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .quote {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.5rem;
+      line-height: 1.45;
+      text-align: center;
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: .85rem;
+      margin-top: 38px;
+    }
+
+    .signature {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 1.3rem;
+      margin-top: 26px;
+    }
+
+    @media (max-width: 500px) {
+      main { padding-top: 35px; }
+      h1 { font-size: 3.5rem; }
+      .card { padding: 25px 21px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="blueprint"></div>
+
+  <main>
+    <div class="eyebrow">A small birthday corner</div>
+    <h1>Happy Birthday,<br>Karel.</h1>
+
+    <p class="intro">
+      I wanted to do something a little different for your birthday, so I made this for you. 
+	  Practice na rin to sa programming/web dev skillz ko charrr
+
+    </p>
+
+    <section class="card message">
+      <h2>For the person who keeps building. NO PUN INTENDED hahahahaha</h2>
+
+      <p>Happy Birthdaaaaay!!!</p>
+
+      <p>
+        We only started talking last June, through an unexpected Reddit message after an earthquake story somehow brought our paths together. 
+		What still amazes me is how two people who had so many familiar faces and even similar classmates in high school could have gone so many years 
+		without ever really knowing each other. Sometimes, it’s funny how life works. We can spend years living in the same circles, only to finally 
+		meet when we least expect it.
+
+      </p>
+
+      <p>
+        Even though we haven't met in person yet, I'm genuinely glad that we
+        did eventually cross paths. I've enjoyed getting to know you through
+        our conversations, and I hope you know that your presence can make
+        someone's ordinary day a little brighter.
+      </p>
+
+      <p>
+        I know things haven't been easy lately. I hope this new year of your
+        life gives you a little more breathing room, good opportunities, and
+        reasons to believe that things can get better. The work you do, the
+        things you create, and the effort you continue to give all matter—even
+        on days when it doesn't feel like enough.
+      </p>
+
+      <p>
+        You spend so much of your time helping create better spaces and bringing
+        light to people (LITERALLY HAHAHAH). I hope life gives some light back to you, too.
+      </p>
+
+      <div class="divider"></div>
+
+      <p>
+        Please don't forget to be kind to yourself. You don't have to have
+        everything figured out right now. It's okay to pause, rest, and take
+        things one day at a time.
+      </p>
+
+      <p>
+        I hope your birthday brings you good food, peaceful moments, and
+        something that makes you smile unexpectedly.
+      </p>
+
+      <p>
+        Happy Birthday, Karel!! I'm rooting for you!! sorry kung ang cheesy ng dating hehe
+      </p>
+
+      <p class="signature">— From someone who is glad he met you</p>
+    </section>
+
+    <section class="card">
+      <div class="eyebrow">A few things that made me think of you</div>
+      <div class="grid">
+        <div class="little-card">
+          <strong>Good food</strong>
+          Kare-kare, pastil, and isaw.
+        </div>
+        <div class="little-card">
+          <strong>Good stories</strong>
+          <em>2 Weeks Notice</em> and <em>The Hunger Games</em>.
+        </div>
+        <div class="little-card">
+          <strong>Good books</strong>
+          <em>Stolen Focus</em> and <em>The Wedding People</em>.
+        </div>
+        
+    </section>
+
+    <section class="card">
+      <p class="quote">
+        "I'm still glad I replied.” NAKS F NA F KO NAMAN HAHHAHAHAHA
+      </p>
+    </section>
+
+    <footer>
+      Made especially for Karel · Happy Birthday
+    </footer>
+  </main>
+</body>
+</html>
